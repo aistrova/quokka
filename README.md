@@ -211,6 +211,9 @@ from quokka.config import (
 
 [x] - Import GPT3 Plus - GPT3 with RoPE  
 [ ] - Import Llama 3.1, Qwen 2.5 as components  
+[ ] - Reduce pretraining memory by half  
+[ ] - Finetuning  
+[ ] - Multimodal  
 [ ] - Documentation  
 
 <br>
