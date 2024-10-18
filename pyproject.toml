@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Quokka"
+version = "1.0.0"  # initial release
+
+description = "Easiest way to create, train, and customize sota llms"
+readme = "README.md"
+requires-python = ">=3.10, <3.12"  # Tested only on 3.10, 3.11
+
+license = {file = "LICENSE"}  # CC BY 4.0 License
+
+keywords = [
+  "LLM", "deep learning", "education", "open-source", "undergraduate",
+  "machine learning", "transformers", "ChatGPT", "training optimization", 
+  "tokenization", "pretraining", "GPU"
+]
+
+# Author info
+authors = [
+  {name = "Fred Zhang" }  # No email for anonymity
+]
+
+# Leave maintainers as a comment for now
+# maintainers = [
+#   {name = "A. Great Maintainer", email = "maintainer@example.com" }
+# ]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Education",
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "License :: OSI Approved :: Creative Commons Attribution 4.0 International License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3 :: Only"
+]
+
+dependencies = [
+  "tqdm>=4.66.5",
+  "torch>=2.2.2",
+  "einops>=0.8.0",
+  "transformers>=4.44.2",
+  "tiktoken>=0.7.0",
+  "datasets>=2.20.0",
+  "matplotlib>=3.9.1"
+]
+
+[project.optional-dependencies]
+dev = ["check-manifest"]
+test = ["coverage"]
+
+[project.urls]
+"Homepage" = "https://github.com/aistrova/quokka"
+"Source" = "https://github.com/aistrova/quokka"
+"Bug Reports" = "https://github.com/aistrova/quokka/issues"
+
+[tool.poetry]
+packages = [
+  { include = "quokka", from = "src" }
+]
+
+# Leave the command-line tool as a comment for now
+# [project.scripts]
+# sample = "sample:main"
+
+# No data files used, leave as a comment
+# [tool.setuptools]
+# package-data = {"sample" = ["*.dat"]}
