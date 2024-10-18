@@ -22,7 +22,7 @@ Quokka is the one and only fully open-source SoTA LLM framework for AI education
    - Quokka is more complete, easier to understand, and easier to build/train new SoTA models compared to existing open-source Llama 3.1, GPT-3, and Transformer implementations.
 
 5. **Extremely simple**
-   - the main Quokka model is just **152 lines of code**, including comments, layers, weight initialization, and forward propagation with training & inference compatibility;
+   - the main Quokka model is just **157 lines of code**, including comments, layers, weight initialization, and forward propagation with training & inference compatibility;
    - all done without using Hugging Face `transformers`. 🤯
 
 6. **Infinite batch size**
