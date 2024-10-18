@@ -209,9 +209,11 @@ from quokka.config import (
 
 ## TODO
 
-[x] - Import GPT3 Plus - GPT3 with RoPE
-[ ] - Import Llama 3.1, Qwen 2.5 as components
-[ ] - Documentation
+[x] - Import GPT3 Plus - GPT3 with RoPE  
+[ ] - Import Llama 3.1, Qwen 2.5 as components  
+[ ] - Documentation  
+
+<br>
 
 ## License
 
