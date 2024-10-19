@@ -55,7 +55,7 @@ Quokka is the one and only fully open-source SoTA LLM framework for AI education
 
 - **[Oct 12, 2024]**  
   🏆 Applied [Sophia](https://arxiv.org/pdf/2305.14342), achieving 2x speedup and less total compute compared to Adam.  
-  🔄 Applied token embedding rotation technique **RoPE** from [Llama 2 by Meta AI](https://arxiv.org/pdf/2307.09288).
+  🔄 Applied token embedding rotation technique **RoPE** from [Llama 2 by Meta AI](https://arxiv.org/pdf/2307.09288).  
   📈 Reduced complexity and improved performance, especially for longer sequences.
 
 
@@ -142,7 +142,7 @@ trainer = Trainer(
     scaler=scaler,
     device=device,
     train_dataloader=train_dataloader,
-    val_dataloader=val_dataloader if PERCENT_TRAIN < 1.0 else None,
+    val_dataloader=val_dataloader,
     tokenizer=tokenizer
 )
 

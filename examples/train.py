@@ -60,7 +60,7 @@ trainer = Trainer(
     scaler=scaler,
     device=device,
     train_dataloader=train_dataloader,
-    val_dataloader=val_dataloader if PERCENT_TRAIN < 1.0 else None,
+    val_dataloader=val_dataloader,
     tokenizer=tokenizer
 )
 
