@@ -220,15 +220,11 @@ from quokka.config import (
 
 ## License
 
-Quokka, by AIstrova, is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
+Quokka, by AIstrova, is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
 
-We do this to advocate for transparency, ethics, and integrity in AI development and technologies, while allowing commercial use.
+Please attribute if you can to advocate for transparency, ethics, and integrity in AI development and technologies.
 
 An attribution as simple as `Built with [Quokka](https://github.com/aistrova/quokka)` or `Inspired by [Quokka](https://github.com/aistrova/quokka)` suffice.  
-For commercial/university use cases, pls provide attribution on the UI, blog, landing page, or curriculum.
-
-If you want to use or modify this work for anything related to commercial activities without attribution, please kindly contact us at `aistrova@gmail.com`. We will add you to our exemptions list and provide you with a separate license for free. ❤️ to see student-run startups!
-
 
 
 ## Honorable mentions
